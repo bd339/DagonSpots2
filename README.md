@@ -1,2 +1,2 @@
 # DagonSpots2
-test
+A simple way to add spots to Dagon++
