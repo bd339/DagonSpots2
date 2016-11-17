@@ -137,6 +137,7 @@
             this.DomainUpDown1.Name = "DomainUpDown1";
             this.DomainUpDown1.Size = new System.Drawing.Size(69, 20);
             this.DomainUpDown1.TabIndex = 235;
+            this.DomainUpDown1.SelectedItemChanged += new System.EventHandler(this.DomainUpDown1_SelectedItemChanged);
             // 
             // button7
             // 

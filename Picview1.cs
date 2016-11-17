@@ -55,10 +55,7 @@ namespace DagonSpots2
         SolidBrush blueBrush = new SolidBrush(Color.Blue);
         #region picture control
 
-        private void loadimgbtn_Click(object sender, EventArgs e)
-        {
-
-        }
+       
         public void LoadImage()
         {
             //we set the picturebox size according to image, we can get image width and height with the help of Image.Width and Image.height properties.
