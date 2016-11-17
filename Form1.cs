@@ -12,7 +12,7 @@ namespace DagonSpots2
 {
     public partial class Form1 : Form
     {
-        // add class links
+        // add class links e
        private NodeProperties m_roomsettings = new NodeProperties();
        private Picview1 m_picview = new Picview1();
         public Form1()
