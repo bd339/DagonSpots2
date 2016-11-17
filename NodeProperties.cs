@@ -23,15 +23,15 @@ namespace DagonSpots2
         public NodeProperties()
         {
             InitializeComponent();
-            _nodes = this;
+            _nodes = this; // required to share controls
         }
-        public static NodeProperties _nodes;
+        public static NodeProperties _nodes;// required to share controls
         public Image Img;
-        private void splitContainer2_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
         string extension;
+
+        // load the node images 
+
         private void loadBtn_Click(object sender, EventArgs e)
         {
             Spotlist.Items.Clear();
