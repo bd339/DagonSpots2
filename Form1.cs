@@ -15,6 +15,7 @@ namespace DagonSpots2
         // add class links e
        private NodeProperties m_roomsettings = new NodeProperties();
        private Picview1 m_picview = new Picview1();
+       private picview2 m_picview2 = new picview2();
         public Form1()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace DagonSpots2
         {
             //dock panels
             m_picview.Show(dockPanel, DockState.Document);
+            m_picview2.Show(dockPanel, DockState.Document);
             m_roomsettings.Show(dockPanel, DockState.DockLeft);
             
         }
