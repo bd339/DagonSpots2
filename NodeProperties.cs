@@ -77,7 +77,7 @@ namespace DagonSpots2
             pictureBox2.Image = Img;
 
             nodeface.Text = Spotlist.Text;
-
+            // look for the suffix in the image name, if it 2 zeros
             string s1 = "001";
             string s2 = "002";
             string s3 = "003";
@@ -85,7 +85,7 @@ namespace DagonSpots2
             string s5 = "005";
             string s6 = "006";
             string s = null;
-
+            // look for the suffix in the image name, if it 3 zeros
             string s1a = "0001";
             string s2a = "0002";
             string s3a = "0003";
@@ -93,7 +93,7 @@ namespace DagonSpots2
             string s5a = "0005";
             string s6a = "0006";
             s = Spotlist.Text;
-
+            // based on the last digits value add directions to spotdirection.Text
             //TextBox4.Text = work
             if (nodeface.Text.Contains(s1))
             {
