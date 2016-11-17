@@ -18,6 +18,7 @@ using System.Xml;
 using WeifenLuo.WinFormsUI.Docking;
 namespace DagonSpots2
 {
+    //Picture view code
     public partial class Picview1 :DockContent
     {
         public Picview1()
