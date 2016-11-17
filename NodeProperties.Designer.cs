@@ -256,7 +256,7 @@
             // 
             // Cropbtn
             // 
-            this.Cropbtn.Location = new System.Drawing.Point(100, 241);
+            this.Cropbtn.Location = new System.Drawing.Point(101, 241);
             this.Cropbtn.Name = "Cropbtn";
             this.Cropbtn.Size = new System.Drawing.Size(75, 23);
             this.Cropbtn.TabIndex = 236;
@@ -506,7 +506,7 @@
             this.ClientSize = new System.Drawing.Size(334, 507);
             this.Controls.Add(this.groupBox4);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MinimumSize = new System.Drawing.Size(350, 0);
+            this.MinimumSize = new System.Drawing.Size(350, 39);
             this.Name = "NodeProperties";
             this.Text = "NodeProperties";
             this.groupBox4.ResumeLayout(false);
