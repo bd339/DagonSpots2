@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WeifenLuo.WinFormsUI.Docking;
+using WeifenLuo.WinFormsUI.Docking;//dock panel
 namespace DagonSpots2
 {
     public partial class Form1 : Form
